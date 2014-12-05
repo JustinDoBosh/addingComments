@@ -7,6 +7,6 @@ function commentController($scope) {
 				$scope.commentList.push({fullName:$scope.fullName, usrComment:$scope.usrComment, count:$scope.count});
 				$scope.fullName = "";
 				$scope.usrComment = "";
-				$scope.count = "";
+				$scope.count = 0;
 			};
             }
